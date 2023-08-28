@@ -1,0 +1,53 @@
+/* common shared style*/
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+/* header style*/
+.header {
+  background: rgba(229, 84, 115, 0.1);
+  flex-shrink: 0;
+  display: flex;
+}
+
+.intro {
+  width: 708px;
+  color: #272727;
+
+  font-size: 80px;
+
+  font-weight: 800;
+  padding: 197px 972px 365px 240px;
+}
+.sub-intro {
+  width: 634px;
+  color: rgba(39, 39, 39, 0.6);
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  /*padding: 517px 1046px 243px 240px;*/
+  /*margin-top: 32px;
+  margin-bottom: 32px;*/
+}
+.btn-primary {
+  color: #fff;
+  border-radius: 8px;
+  background: #e55473;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-pic {
+  width: 635px;
+  height: 800px;
+  flex-shrink: 0;
+}
