@@ -5,7 +5,7 @@ body {
 }
 /* header style*/
 .header {
-  background: rgba(229, 84, 115, 0.1);
+  background-color: rgba(229, 84, 115, 0.1);
   flex-shrink: 0;
   display: flex;
 }
@@ -13,19 +13,19 @@ body {
 .intro {
   width: 708px;
   color: #272727;
-
   font-size: 80px;
-
   font-weight: 800;
   padding: 197px 972px 365px 240px;
+  margin-bottom: 0px;
 }
 .sub-intro {
   width: 634px;
   color: rgba(39, 39, 39, 0.6);
-
   font-size: 18px;
-
   font-weight: 400;
+
+  margin-top: 30px;
+  margin-bottom: 32px;
 
   /*padding: 517px 1046px 243px 240px;*/
   /*margin-top: 32px;
@@ -45,9 +45,29 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 30px 30px 150px;
 }
 .banner-pic {
   width: 635px;
   height: 800px;
   flex-shrink: 0;
+}
+.banner-content {
+}
+
+/*main section*/
+.feature {
+  text-align: center;
+  margin-top: 200px;
+  color: #272727;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
