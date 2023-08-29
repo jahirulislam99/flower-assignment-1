@@ -44,9 +44,25 @@ body {
 
 /* secound section*/
 .header-2 {
+  background-color: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+  margin-top: 128px;
 }
 
 .hot-deal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.hot-deal > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hot-deal > div > p {
+  max-width: 594px;
+  margin: 20px 0;
 }
 .hd-title {
 }
