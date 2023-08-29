@@ -90,7 +90,15 @@ body {
 }
 
 .cuppon {
-  background-image: url("../flower-assignment-1/Flower\ Asset/");
+  background-image: url("./background-image/background-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.cuppon > button {
+  padding-left: 16px;
 }
 .cuppon > .cuppon-description > {
   margin-top: 24px;
@@ -102,4 +110,32 @@ body {
   height: 64px;
   padding: 20px;
   font-size: 16px;
+}
+.Email {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 48px;
+}
+/*Footer style */
+.footer {
+  background-color: #111010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 128px 0;
+  margin-top: 128px;
+}
+.footer > h3 {
+  color: #fff;
+}
+.footer > p {
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer > .footer-description {
+  max-width: 624px;
+  margin: 24px 0 32px 0;
+}
+.footer > .copyright {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
 }
