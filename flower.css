@@ -96,13 +96,28 @@ body {
   background-size: cover;
   padding: 120px 0;
 }
-
-.cuppon > button {
-  padding-left: 16px;
+.cuppon-email > div > input {
+  border: none;
+  border-radius: 8px;
+  width: 700px;
+  height: 64px;
+  padding: 20px;
+  font-size: 16px;
 }
+.cuppon-title {
+  text-align: center;
+}
+.cuppon-description {
+  text-align: center;
+}
+
 .cuppon > .cuppon-description > {
   margin-top: 24px;
 }
+.cuppon-email {
+  text-align: center;
+}
+
 .Email {
   border: none;
   border-radius: 8px;
