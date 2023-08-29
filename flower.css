@@ -88,3 +88,18 @@ body {
   gap: 24px;
   margin: 48px 0 128px 0;
 }
+
+.cuppon {
+  background-image: url("../flower-assignment-1/Flower\ Asset/");
+}
+.cuppon > .cuppon-description > {
+  margin-top: 24px;
+}
+.Email {
+  border: none;
+  border-radius: 8px;
+  width: 700px;
+  height: 64px;
+  padding: 20px;
+  font-size: 16px;
+}
