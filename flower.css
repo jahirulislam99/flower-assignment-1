@@ -69,3 +69,22 @@ body {
 .off {
   color: #e55473;
 }
+
+/* instagram section*/
+
+.insta {
+  margin-top: 128px;
+}
+.insta > .contant > p {
+  max-width: 594px;
+  margin: 0 auto;
+}
+.insta-title {
+  max-width: 0;
+  margin: 0 auto;
+}
+.insta-image {
+  display: flex;
+  gap: 24px;
+  margin: 48px 0 128px 0;
+}
